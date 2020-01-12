@@ -1,0 +1,209 @@
+<html>
+  <head>
+     <link rel="stylesheet" href="style.css">
+         <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     
+      <title>Suprime</title>
+         <link rel="icon" href="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SuprimeIcon.png">
+  </head>
+
+  <body>
+  
+      <nav class="navbar navbar-expand-lg navbar-light bg-light row" id="Top" style="background-color: #e3231e!important;">
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav col-sm">
+          <a class="nav-item nav-link active mx-1 " href="C:\Users\User\Desktop\GoMyCode\Proojet\Home.html" >  <p class="NavFelsa" style="margin-left:10px;">Home</p> </a>
+          <a class="nav-item nav-link mx-1" href="C:\Users\User\Desktop\GoMyCode\Proojet\Men.html" >  <p class="NavFelsa">Men</p> </a>
+          <a class="nav-item nav-link mx-1" href="C:\Users\User\Desktop\GoMyCode\Proojet\Women.html" >  <p class="NavFelsa">Women</p> </a>
+          <a class="nav-item nav-link mx-1 "href="C:\Users\User\Desktop\GoMyCode\Proojet\Kids.html" >  <p class="NavFelsa" >Kids</p> </a>
+          <a  href="C:\Users\User\Desktop\GoMyCode\Proojet\Home.html" class="navbar-brand col-sm-4 mx-auto col-xs-2 "> <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\LogoAcceuil2.PNG"  alt="Imaage" style=" width: 200px;" > </a>
+
+          <a href="#"><img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\Cart.png" alt="Cart" style="width: 70px;margin-top: 7px;"id="Cart" ></a>
+          <a href="C:\Users\User\Desktop\GoMyCode\SignUp.html"><img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SignUp.png" alt="SignUp" style="width: 40px;margin-top: 15px;margin-left:10px;"></a>
+        </div>
+      </div>
+     </nav>
+
+
+
+
+
+
+<div class="container py-5">
+
+    <!-- For demo purpose -->
+    <div class="row mb-4">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 >Add a CreditCard</h2>
+       
+       
+      </div>
+    </div>
+    <!-- End -->
+  
+  
+    <div class="row">
+      <div class="col-lg-7 mx-auto">
+        <div class="bg-white rounded-lg shadow-sm p-5">
+          <!-- Credit card form tabs -->
+          <ul role="tablist" class="nav bg-light nav-pills rounded-pill nav-fill mb-3">
+            <li class="nav-item">
+              <a data-toggle="pill" href="#nav-tab-card" class="nav-link active rounded-pill">
+                                  <i class="fa fa-credit-card"></i>
+                                  Credit Card
+                              </a>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="pill" href="#nav-tab-paypal" class="nav-link rounded-pill">
+                                  <i class="fa fa-paypal"></i>
+                                  Paypal
+                              </a>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="pill" href="#nav-tab-bank" class="nav-link rounded-pill">
+                                  <i class="fa fa-university"></i>
+                                   Bank Transfer
+                               </a>
+            </li>
+          </ul>
+          <!-- End -->
+  
+  
+          <!-- Credit card form content -->
+          <div class="tab-content">
+  
+            <!-- credit card info-->
+            <div id="nav-tab-card" class="tab-pane fade show active">
+              <p class="alert alert-success">
+                Please fill in the boxes to finalize your purchase.</p>
+              <form role="form">
+                <div class="form-group">
+                  <label for="username">Full name </label>
+                  <input type="text" name="username" placeholder="Your name" required class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="cardNumber">Card number</label>
+                  <div class="input-group">
+                    <input type="text" name="cardNumber" placeholder="Your card number" class="form-control" required>
+                    <div class="input-group-append">
+                      <span class="input-group-text text-muted">
+                          <i class="fa fa-cc-visa mx-1"></i>
+                            <i class="fa fa-cc-amex mx-1"></i>
+                            <i class="fa fa-cc-mastercard mx-1"></i>
+                        </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-8">
+                    <div class="form-group">
+                      <label><span class="hidden-xs">Expiration</span></label>
+                      <div class="input-group">
+                        <input type="number" placeholder="MM" name="" class="form-control" required>
+                        <input type="number" placeholder="YY" name="" class="form-control" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="form-group mb-4">
+                      <label data-toggle="tooltip" title="Three-digits code on the back of your card">CVV
+                      <i class="fa fa-question-circle"></i>
+                     </label>
+                      <input type="text" required class="form-control">
+                    </div>
+                  </div>
+  
+  
+  
+                </div>
+                <button type="button" class="subscribe btn btn-primary btn-block rounded-pill shadow-sm"> Confirm  </button>
+              </form>
+            </div>
+            <!-- End -->
+  
+            <!-- Paypal info -->
+            <div id="nav-tab-paypal" class="tab-pane fade" style="text-align: center;">
+              <p style="margin-top: 20px;"> You can use Paypal if you want :</p>
+              <p>
+                <a href="https://www.paypal.com/fr/signin"><button type="button" class="btn btn-primary rounded-pill"><i class="fa fa-paypal mr-2"></i> Log into my Paypal</button></a>
+              </p>
+        
+            </div>
+            <!-- End -->
+  
+            <!-- bank transfer info -->
+            <div id="nav-tab-bank" class="tab-pane fade">
+              <h6>Bank account details</h6>
+              <dl>
+                <dt>Bank</dt>
+                <dd> THE WORLD BANK</dd>
+              </dl>
+              <dl>
+                <dt>Account number</dt>
+                <dd>7775877975</dd>
+              </dl>
+              <dl>
+                <dt>IBAN</dt>
+                <dd>CZ7775877975656</dd>
+              </dl>
+              <p class="text-muted">This could take several minutes.
+              </p>
+            </div>
+            <!-- End -->
+          </div>
+          <!-- End -->
+  
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+       <div style="background-color: 313234;padding-top: 30px;">
+     <div Class="RSDIV col-sm-12 mx-auto col-xs-6 " style="text-align: center;" >
+       <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SuprimeLogo3.PNG" alt="Suprime" style="width: 90px;">
+        <p >Created by Aloui Khalil, Suprime is a low-cost version of Supreme.</p> 
+            </div>
+
+      <div >
+        <div class="col-sm-6 mx-auto col-xs-3">
+          <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\CreditCard.png" alt="Mastercard2"  class="col-sm-5 mx-auto col-xs-3" style="float: right; margin-top: 30px;" >
+       <p id="FlwUs" >Follow us on :</p>
+          <a href="https://www.facebook.com/SuprimeClothes/?modal=admin_todo_tour" > <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\Fb.PNG" alt="Facebook" class="Rs" onmouseover="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/Fb2.PNG'" onmouseout="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/Fb.PNG'"> </a>
+         <a href="https://www.instagram.com/suprimeclothes/"> <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\Insta.PNG" alt="Instagram" class="Rs" onmouseover="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/Insta2.PNG'" onmouseout="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/Insta.PNG'"></a>
+         <a href="https://twitter.com/Suprime10905519">  <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\twitter.PNG" alt="Twitter" class="Rs"onmouseover="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/twitter2.PNG'" onmouseout="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/twitter.PNG'"></a>
+    
+      
+    </div>
+
+<br>
+   <div class="Final">
+  
+    <p >Tel:+216 29197240 <br>
+      <a id="Adress" href="https://www.google.com/maps/place/Rue+du+Lieutenant+Bejaoui,+Ariana/@36.8515098,10.1743772,17z/data=!3m1!4b1!4m5!3m4!1s0x12fd34af30083687:0xdb368a737f3128e7!8m2!3d36.8515098!4d10.1765712https://www.google.com/maps/place/Rue+du+Lieutenant+Bejaoui,+Ariana/@36.8515098,10.1743772,17z/data=!3m1!4b1!4m5!3m4!1s0x12fd34af30083687:0xdb368a737f3128e7!8m2!3d36.8515098!4d10.1765712">  Rue du Lieutenant Bejaoui, Ariana</a></p>
+      </div>
+       <div>
+        <a href="#Top"><img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\FlecheHaut.png" alt="FlecheHaut" id="FlecheHaut"> </a> 
+     </div>
+
+     <div>
+       <p id="Finale">Suprime © 2019</p>
+     </div>
+
+
+
+    <script src="main.js"></script>
+     
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,850 @@
+<html>
+  <head>
+   <link rel="stylesheet" href="style.css">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     
+    <title>Suprime</title>
+    <link rel="icon" href="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SuprimeIcon2.png">
+     
+  </head>
+
+  <body>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light row" id="Top" style="background-color: #e3231e!important;"> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+         <div class="navbar-nav col-sm">
+           <a class="nav-item nav-link active mx-1 " href="C:\Users\User\Desktop\GoMyCode\Proojet\Home.html" >  <p class="NavFelsa" style="margin-left:10px;">Home</p> </a>
+            <a class="nav-item nav-link mx-1" href="C:\Users\User\Desktop\GoMyCode\Proojet\Men.html" >  <p class="NavFelsa">Men</p> </a>
+            <a class="nav-item nav-link mx-1" href="C:\Users\User\Desktop\GoMyCode\Proojet\Women.html" >  <p class="NavFelsa">Women</p> </a>
+            <a class="nav-item nav-link mx-1 "href="C:\Users\User\Desktop\GoMyCode\Proojet\Kids.html" >  <p class="NavFelsa" >Kids</p> </a>
+            <a  href="C:\Users\User\Desktop\GoMyCode\Proojet\Home.html" class="navbar-brand col-sm-4 mx-auto col-xs-2 "> <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\LogoAcceuil2.PNG"  alt="Imaage" style=" width: 200px;" > </a>
+            <a href="#MenCart"><img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\Cart.png" alt="Cart" style="width: 70px;margin-top: 7px;"id="Cart" ></a>
+            <a href="C:\Users\User\Desktop\GoMyCode\Proojet\SignIn.html"><img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SignUp.png" alt="SignUp" style="width: 40px;margin-top: 15px;margin-left:10px;"></a>
+          </div>
+       </div>
+       </nav>
+
+
+
+
+      <div style="background-image:url(CamouflageFond.jpg);text-align: center;" class="col-sm-12 col-xs-1 Choose">
+
+        <div class="btn-group btn-group-toggle" class="container" data-toggle="buttons" style="margin-bottom: 20px;margin-top: 20px;">
+          <label class="btn btn-secondary col-sm-6 col-xs-1 labelZina" >
+              <input type="radio" name="options" id="option1" autocomplete="off" checked> <a href="#Coats" class="linkZina" >Coats</a>
+          </label>
+          <label class="btn btn-secondary col-sm-6 col-xs-1 labelZina" >
+              <input type="radio" name="options" id="option2" autocomplete="off"><a href="#Shirts" class="linkZina">Shirts</a>
+          </label>
+            <label class="btn btn-secondary col-sm-6 col-xs-1 labelZina">
+                <input type="radio" name="options" id="option3" autocomplete="off"> <a href="#Pants" class="linkZina">Pants</a>
+          </label>
+          <label class="btn btn-secondary col-sm-6 col-xs-1 labelZina">
+              <input type="radio" name="options" id="option3" autocomplete="off"> <a href="#Shoes" class="linkZina">Shoes</a>
+          </label>
+        </div>
+      </div>
+
+
+        <!--Coats-->
+
+
+      <div style="margin: 20px;" >
+        <h2 class="h2mzayna" style="margin-left: 20px;" id="Coats">Coats</h2>
+        </div>
+
+      <div style="display: flex;" class="container col-sm-9">
+        <div class="card mx-4" style="width: 18rem;">
+          <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\KabboutZghar.png" alt="Coat">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Coat Suprime</h5>
+            <p class="card-text">90$</p>
+            <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard1()">Add to cart</button>
+          </div>
+      </div>
+      <div class="card mx-4" style="width: 18rem;">
+        <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\KabboutZghar2.png" alt="Coat">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Coat Suprime</h5>
+          <p class="card-text">90$</p>
+        <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard2()">Add to cart</button>
+        </div>
+      </div>
+
+      
+          <div class="card mx-4" style="width: 18rem;">
+            <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\KabboutZghar3.png" alt="Coat">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Coat Suprime</h5>
+              <p class="card-text">80$</p>
+              <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard3()">Add to cart</button>
+            </div>
+        </div>
+      </div>
+
+      <!--Shirts-->
+
+
+      <div style="margin: 20px;" >
+        <h2 class="h2mzayna" style="margin-left: 20px;" id="Shirts">Shirts</h2>
+        </div>
+    
+      <div style="display: flex;" class="container col-sm-9">
+        <div class="card mx-4" style="width: 18rem;">
+          <img class="card-img-top  Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\MaryoulZghar1.png" alt="Shirt">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Sweatshirt Suprime</h5>
+            <p class="card-text">50$</p>
+            <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard4()">Add to cart</button>
+          </div>
+      </div>
+      <div class="card mx-4" style="width: 18rem;">
+        <img class="card-img-top  Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\MaryoulZghar2.png" alt="Coat">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Sweatshirt Suprime</h5>
+          <p class="card-text">55$</p>
+        <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard5()">Add to cart</button>
+        </div>
+      </div>
+        <div class="card mx-4" style="width: 18rem;">
+          <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\MaryoulZghar3.png" alt="Coat">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Sweatshirt Suprime</h5>
+            <p class="card-text">50$</p>
+            <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard6()">Add to cart</button>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div style="display: flex;margin-top: 40px;" class="container col-sm-6">
+        <div class="card mx-4" style="width: 18rem;">
+          <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\MaryoulZghar4.png" alt="Shirt">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Hoodie Suprime</h5>
+            <p class="card-text">50$</p>
+            <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard7()">Add to cart</button>
+         </div>
+        </div>
+        <div class="card mx-4" style="width: 18rem;">
+          <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\MaryoulZghar5.png" alt="Coat">
+            <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Shirt Suprime</h5>
+          <p class="card-text">30$</p>
+          <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard8()">Add to cart</button>
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+
+      <!--Pants-->
+
+        <div style="margin: 20px;" >
+          <h2 class="h2mzayna" style="margin-left: 20px;" id="Pants">Pants</h2>
+        </div>
+
+        <div style="display: flex;" class="container col-sm-9">
+        <div class="card mx-4" style="width: 18rem;">
+          <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SerwelZghar2.png" alt="Pant">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Pant Suprime</h5>
+            <p class="card-text">80$</p>
+            <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard9()">Add to cart</button>
+          </div>
+        </div>
+      <div class="card mx-4" style="width: 18rem;">
+        <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SerwelZghar3.png" alt="Pant">
+          <div class="card-body" style="text-align: center;">
+          <h5 class="card-title">Pant Suprime</h5>
+        <p class="card-text">70$</p>
+        <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard10()">Add to cart</button>
+        </div>
+      </div>
+      <div class="card mx-4" style="width: 18rem;">
+          <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SerwelZghar.png" alt="Pant">
+        <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Jeans Suprime</h5>
+            <p class="card-text">100$</p>
+            <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard11()">Add to cart</button>
+          </div>
+        </div>
+        </div>
+
+
+        <!--Shoess-->
+
+      <div style="margin: 20px;" >
+        <h2 class="h2mzayna" style="margin-left: 20px;" id="Shoes">Shoes</h2>
+      </div>
+
+      <div style="display: flex; margin-bottom: 70px;" class="container col-sm-9">
+    
+      <div class="card mx-4" style="width: 18rem;">
+        <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SabbatZghar.png" alt="Shoes">
+          <div class="card-body" style="text-align: center;">
+             <h5 class="card-title">Sneakers Suprime</h5>
+             <p class="card-text">90$</p>
+             <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard12()">Add to cart</button>
+           </div>
+          </div>
+          <div class="card mx-4" style="width: 18rem;">
+           <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SabbatZghar2.png" alt="Shoes">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title">Sneakers Suprime</h5>
+              <p class="card-text">90$</p>
+              <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard13()">Add to cart</button>
+            </div>
+        </div> 
+        <div class="card mx-4" style="width: 18rem;">
+          <img class="card-img-top Zoom"src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SabbatZghar3.png" alt="Shoes">
+          <div class="card-body" style="text-align: center;">
+             <h5 class="card-title">Shoes Suprime</h5>
+             <p class="card-text">80$</p>
+           <button class="btn btn-outline-dark" onclick="AddToCart(); GoCard14()">Add to cart</button>
+          </div>
+          </div>
+        </div>
+
+
+
+
+          <hr>
+          <!--Cart--> 
+
+      <div class="container" style="margin-bottom: 40px;">
+        <h2 class="h2mzayna" id="MenCart">Cart</h2>
+      </div>
+          <div id="EmptyCart" class="container">
+            <div style="text-align: center;margin:20px;margin-bottom: 40px;">
+              <h2>Your Shopping Cart is empty.</h2>
+              <a href="#Top"><button type="button" class="btn btn-outline-danger" style="margin-top: 10px;">Add an article </button></a>
+            </div>
+          </div>
+
+
+        
+              
+          <div class="container col-sm-6 mx-auto" style="text-align: center;" id="FullCart">
+
+        <!--Coat1--> 
+          
+          <div class="card mb-3" style="max-width:780px;display: none;"id="Coat1">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\KabboutZghar.png" class="card-img" alt="Coat">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                   <div style="float: right;">
+                             <button type="button" class="btn btn-danger" onclick="Dlt1()">X</button>
+                         </div>
+                  <h5 class="card-title">Coat Suprime</h5>
+                  <p class="card-text">90$</p>
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Choose your size</label>
+                      <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                     </select>
+                 </form>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">Black</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">Brown</label>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <!--Coat2-->
+      
+      <div class="card mb-3" style="max-width:780px;display: none;"id="Coat2">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\KabboutZghar2.png" class="card-img" alt="Coat">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+               <div style="float: right;">
+                   <button type="button" class="btn btn-danger" onclick="Dlt2()">X</button>
+                    </div>
+              <h5 class="card-title">Coat Suprime</h5>
+              <p class="card-text">90$</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Choose your size</label>
+                  <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                  </select>
+                  </form>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Black</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Blue</label>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <!--Coat3-->
+      
+        <div class="card mb-3" style="max-width:780px;display: none;"id="Coat3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\KabboutZghar3.png" class="card-img" alt="Coat">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                 <div style="float: right;">
+                     <button type="button" class="btn btn-danger" onclick="Dlt2()">X</button>
+                      </div>
+                <h5 class="card-title">Coat Suprime</h5>
+                <p class="card-text">80$</p>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">Choose your size</label>
+                    <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                      <option>XL</option>
+                    </select>
+                    </form>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Black</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Blue</label>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+              <!--Shirt1-->
+
+      <div class="card mb-3" style="max-width:780px;display: none;"id="Shirt1">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\MaryoulZghar1.png" class="card-img" alt="Shirt">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+               <div style="float: right;">
+                             <button type="button" class="btn btn-danger" onclick="Dlt3()">X</button>
+                         </div>
+              <h5 class="card-title">Sweatshirt Suprime</h5>
+              <p class="card-text">50$</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Choose your size</label>
+                  <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                  </select>
+                  </form>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Gray</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">White</label>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+         <!--Shirt2-->
+
+          <div class="card mb-3" style="max-width:780px;display: none;"id="Shirt2">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\MaryoulZghar2.png" class="card-img" alt="Coat">
+              </div>
+              <div class="col-md-8">
+            <div class="card-body">
+               <div style="float: right;">
+                             <button type="button" class="btn btn-danger" onclick="Dlt4()">X</button>
+                         </div>
+              <h5 class="card-title">Sweatshirt Suprime</h5>
+              <p class="card-text">55$</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Choose your size</label>
+                  <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                  </select>
+                  </form>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Red</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Black</label>
+                </div>
+            </div>
+            </div>
+        </div>
+       </div>
+
+
+
+       <!--Shirt3-->
+
+       <div class="card mb-3" style="max-width:780px;display: none;"id="Shirt3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\MaryoulZghar3.png" class="card-img" alt="Coat">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+               <div style="float: right;">
+                             <button type="button" class="btn btn-danger" onclick="Dlt5()">X</button>
+                         </div>
+              <h5 class="card-title">Sweatshirt</h5>
+              <p class="card-text">50$</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Choose your size</label>
+                  <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                  </select>
+                  </form>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">White</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Blue</label>
+                </div>
+            </div>
+          </div>
+         </div>
+       </div>
+
+          <!--Shirt4-->
+
+        <div class="card mb-3" style="max-width:780px;display: none;"id="Shirt4">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\MaryoulZghar4.png" class="card-img" alt="Coat">
+             </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                 <div style="float: right;">
+                     <button type="button" class="btn btn-danger" onclick="Dlt6()">X</button>
+                   </div>
+                <h5 class="card-title">Hoodie Suprime</h5>
+                 <p class="card-text">50$</p>
+                  <form>
+                     <div class="form-group">
+                       <label for="exampleFormControlSelect1">Choose your size</label>
+                      <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                        <option>S</option>
+                        <option>M</option>
+                         <option>L</option>
+                         <option>XL</option>
+                         <option>XXL</option>
+                       </select>
+                    </form>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                     <label class="form-check-label" for="inlineRadio1">Black</label>
+                   </div>
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                     <label class="form-check-label" for="inlineRadio2">Gray</label>
+                  </div>
+              </div>
+            </div>
+         </div>
+       </div>
+      
+               <!--Shirt5-->
+
+      <div class="card mb-3" style="max-width:780px;display: none;"id="Shirt5">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\MaryoulZghar5.png" class="card-img" alt="Coat">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+              <div style="float: right;">
+                 <button type="button" class="btn btn-danger" onclick="Dlt7()">X</button>
+             </div>
+              <h5 class="card-title">Shirt Suprime</h5>
+              <p class="card-text">30$</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Choose your size</label>
+                  <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                  </select>
+                  </form>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">White</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Red</label>
+                </div>
+            </div>
+          </div>
+        </div>
+       </div>
+
+         <!--Pant1-->
+
+        <div class="card mb-3" style="max-width:780px;display: none;"id="Pant1">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SerwelZghar2.png" class="card-img" alt="Coat">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+               <div style="float: right;">
+                  <button type="button" class="btn btn-danger" onclick="Dlt8()">X</button>
+                </div>
+              <h5 class="card-title">Pant Suprime</h5>
+              <p class="card-text">80$</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Choose your size</label>
+                  <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                  </select>
+                  </form>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Black</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">White</label>
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+        <!--Pant2-->
+
+        <div class="card mb-3" style="max-width:780px;display: none;"id="Pant2">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SerwelZghar3.png" class="card-img" alt="Coat">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+               <div style="float: right;">
+                  <button type="button" class="btn btn-danger" onclick="Dlt9()">X</button>
+                </div>
+              <h5 class="card-title">Pant Suprime</h5>
+              <p class="card-text">70$</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Choose your size</label>
+                  <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                  </select>
+                  </form>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Blue</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Black</label>
+                </div>
+            </div>
+          </div>
+        </div>
+       </div>
+
+
+
+       <!--Pant3-->
+
+       <div class="card mb-3" style="max-width:780px;display: none;"id="Pant3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SerwelZghar.png" class="card-img" alt="Coat">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+               <div style="float: right;">
+                  <button type="button" class="btn btn-danger" onclick="Dlt10()">X</button>
+                </div>
+              <h5 class="card-title">Jeans Suprime</h5>
+              <p class="card-text">100$</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Choose your size</label>
+                  <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                  </select>
+                  </form>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Gray</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Black</label>
+                </div>
+            </div>
+          </div>
+        </div>
+       </div>
+
+
+            <!--Shoes1-->
+
+       <div class="card mb-3" style="max-width:780px;display: none;"id="Shoes1">
+        <div class="row no-gutters">
+           <div class="col-md-5">
+             <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SabbatZghar.png" class="card-img" alt="Coat">
+           </div>
+          <div class="col-md-7">
+             <div class="card-body">
+                <div style="float: right;">
+                  <button type="button" class="btn btn-danger" onclick="Dlt11()">X</button>
+                </div>
+               <h5 class="card-title">Sneakers Suprime</h5>
+              <p class="card-text">90$</p>
+              <form>
+                 <div class="form-group">
+                  <label for="exampleFormControlSelect1">Choose your size</label>
+                   <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                     <option>37</option>
+                     <option>38</option>
+                      <option>39</option>
+                     <option>40</option>
+                      <option>41</option>
+                     <option>42</option>
+                      <option>43</option>
+                     <option>44</option>
+                      <option>45</option>
+                    </select>
+                   </form>
+                  </div>
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                     <label class="form-check-label" for="inlineRadio1">Black</label>
+                     </div>
+                   <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">Dark Gray</label>
+                   </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+        
+        
+                <!--Shoes2-->
+        
+          <div class="card mb-3" style="max-width:780px;display: none;"id="Shoes2">
+            <div class="row no-gutters">
+               <div class="col-md-5">
+                 <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SabbatZghar2.png" class="card-img" alt="Coat">
+               </div>
+            <div class="col-md-7">
+               <div class="card-body">
+                 <div style="float: right;">
+                    <button type="button" class="btn btn-danger" onclick="Dlt12()">X</button>
+                 </div>
+                 <h5 class="card-title">Sweatshirt Suprime</h5>
+                   <p class="card-text">90$</p>
+                 <form>
+                   <div class="form-group">
+                    <label for="exampleFormControlSelect1">Choose your size</label>
+                      <select class="form-control col-sm-2 mx-auto col-xs-2" id="exampleFormControlSelect1">
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                       <option>43</option>
+                        <option>44</option>
+                         <option>45</option>
+                       </select>
+                     </form>
+                       </div>
+                     <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">White</label>
+                     </div>
+                     <div class="form-check form-check-inline">
+                       <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                       <label class="form-check-label" for="inlineRadio2">Brown</label>
+                     </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+
+             <!--Shoes3-->
+        
+               <div class="card mb-3" style="max-width:780px;display: none;"id="Shoes3">
+               <div class="row no-gutters">
+                <div class="col-md-5">
+                  <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SabbatZghar3.png" class="card-img" alt="Shoes">
+                </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                   <div style="float: right;">
+                       <button type="button" class="btn btn-danger" onclick="Dlt13()">X</button>
+                     </div>
+                    <h5 class="card-title">Shoes Suprime</h5>
+                    <p class="card-text">80$</p>
+                    <form>
+                     <div class="form-group">
+                        <label for="exampleFormControlSelect1">Choose your size</label>
+                        <select class="form-control col-sm-3 mx-auto col-xs-3" id="exampleFormControlSelect1">
+                            <option>37</option>
+                            <option>38</option>
+                            <option>39</option>
+                             <option>40</option>
+                            <option>41</option>
+                             <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                            <option>45</option>
+                          </select>
+                         </form>
+                     </div>
+                     <div class="form-check form-check-inline">
+                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                         <label class="form-check-label" for="inlineRadio1">White</label>
+                     </div>
+                       <div class="form-check form-check-inline">
+                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                         <label class="form-check-label" for="inlineRadio2">Black</label>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+
+            <!--Delete All and Buy Button-->
+             <div  style="text-align: center;margin-top: 20px;" >
+               <div style="display: none;" class="container" id="DeleteAndBuy">
+                  <button  class="btn btn-outline-danger col-sm-3 mx-3 col-xs-3" style="text-align: center;" onclick="DltAll()">Delete All</button>
+                   <a href="C:\Users\User\Desktop\GoMyCode\Proojet\CreditCardForm.html"><button type="button" class="btn btn-outline-success col-sm-3 mx-3 col-xs-3" style="text-align: center;">Buy</button></a>
+               </div>
+           </div>
+         </div>
+
+
+       <div style="background-color: 313234;padding-top: 30px;margin-top: 40px;">
+         <div Class="RSDIV col-sm-12 mx-auto col-xs-6 " style="text-align: center;" >
+            <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\SuprimeLogo3.PNG" alt="Suprime" style="width: 90px;">
+            <p >Created by Aloui Khalil, Suprime is a low-cost version of Supreme.</p> 
+        </div>
+       <div >
+
+       <div class="col-sm-6 mx-auto col-xs-3">
+          <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\CreditCard.png" alt="Mastercard2"  class="col-sm-5 mx-auto col-xs-3" style="float: right; margin-top: 30px;" >
+          <p id="FlwUs" >Follow us on :</p>
+           <a href="https://www.facebook.com/SuprimeClothes/?modal=admin_todo_tour" > <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\Fb.PNG" alt="Facebook" class="Rs" onmouseover="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/Fb2.PNG'" onmouseout="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/Fb.PNG'"> </a>
+           <a href="https://www.instagram.com/suprimeclothes/"> <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\Insta.PNG" alt="Instagram" class="Rs" onmouseover="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/Insta2.PNG'" onmouseout="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/Insta.PNG'"></a>
+          <a href="https://twitter.com/Suprime10905519">  <img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\twitter.PNG" alt="Twitter" class="Rs"onmouseover="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/twitter2.PNG'" onmouseout="this.src='C:/Users/User/Desktop/GoMyCode/Proojet/Images/twitter.PNG'"></a>
+    </div>
+    
+    <br>
+       <div class="Final">
+          <p >Tel:+216 29197240 <br>
+          <a id="Adress" href="https://www.google.com/maps/place/Rue+du+Lieutenant+Bejaoui,+Ariana/@36.8515098,10.1743772,17z/data=!3m1!4b1!4m5!3m4!1s0x12fd34af30083687:0xdb368a737f3128e7!8m2!3d36.8515098!4d10.1765712https://www.google.com/maps/place/Rue+du+Lieutenant+Bejaoui,+Ariana/@36.8515098,10.1743772,17z/data=!3m1!4b1!4m5!3m4!1s0x12fd34af30083687:0xdb368a737f3128e7!8m2!3d36.8515098!4d10.1765712">  Rue du Lieutenant Bejaoui, Ariana</a></p>
+       </div>
+
+        <div>
+         <a href="#Top"><img src="C:\Users\User\Desktop\GoMyCode\Proojet\Images\FlecheHaut.png" alt="FlecheHaut" id="FlecheHaut"> </a> 
+        </div>
+    
+       <div >
+         <p id="Finale">Suprime © 2019</p>
+      </div>
+
+
+
+      <script src="main.js"></script>
+     
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
